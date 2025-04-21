@@ -7,6 +7,8 @@ class Settings(BaseSettings):
     ENVIRONMENT: str
     APP_NAME: str
     SECRET_KEY: str
+    PROD_KEY1: str
+    PROD_KEY2: str
 
     @field_validator("ENVIRONMENT")
     @classmethod
